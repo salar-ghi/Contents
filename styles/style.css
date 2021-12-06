@@ -1,0 +1,99 @@
+:root{
+    --background_color:#f8f8f8;
+    --main_color: #7d25c1;
+}
+
+*, *:after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background: var(--background_color);
+    overflow-y: scroll;
+    overflow-wrap: normal;
+
+}
+
+
+.postBody {
+    width: 1080px;
+    height: 1080px;
+    /* background: var(--main_color); */
+    /* background: linear-gradient(to bottom, #fefaff 0%, #c3b0e2 35%, #8661c5 70%, #5e448a 100%); */
+    
+
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg,
+     #ffffff 0%,
+     #e7dff3 8%,
+     #cfc0e8 16%, 
+     #b6a0dc 26%, 
+     #9e81d1 36%,
+     #8661c5 50%, 
+     #6b4e9e 65%, 
+     #503a76 78%,
+     #36274f 94%,
+     #281d3b 100%
+     );
+
+    border: 3px solid #000;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .fun-cube{
+    display: flex;
+    justify-content: center;
+} */
+
+.fun-cube img {
+    transform: scale(10);
+    opacity: 0.038;
+    font-size: 15px;
+    color: #503a76;
+}
+.shape {
+    display: flex;
+    justify-content: space-between;
+}
+.rectangle {
+    width: 0;
+    height: 0;
+    /* border: 3px solid #1b1327; */
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 240px solid #281d3b;
+    opacity: 0.382;
+    position: absolute;
+    bottom: 1%;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+
+    opacity: 0.382;
+    position: absolute;
+    bottom: 1%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    opacity: 0.382;
+    position: absolute;
+    bottom: 1%;
+}

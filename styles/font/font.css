@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Yekan;
+    src: url('./yekan-font/Yekan.eot');
+    src: url('./yekan-font/Yekan.eot?#iefix') format('Yekan-opentype'),
+         url('./yekan-font/Yekan.woff') format('woff'),
+         url('./yekan-font/Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('./vazir-font-v18.0.0/Vazir.eot');
+    src: url('./vazir-font-v18.0.0/Vazir.eot?#iefix') format('Yekan-opentype'),
+         url('./vazir-font-v18.0.0/Vazir.woff') format('woff'),
+         url('./vazir-font-v18.0.0/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: PlasticSans;
+    src: url('./PlasticSansFreebie-Outline.otf');
+    font-weight: normal;
+    font-style: normal;
+}

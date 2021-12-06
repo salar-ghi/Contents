@@ -1,0 +1,155 @@
+:root{
+    --background_color:#f8f8f8;
+    --main_color: #7d25c1;
+}
+
+*, *:after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: var(--background_color);
+    overflow-y: scroll;
+    overflow-wrap: normal;
+    font-family: Yekan;
+}
+
+
+.postBody {
+    width: 960px;
+    height: 1080px;
+    background: #fff;
+    border: 1px solid #DFE1E6;
+    color: #1F2667;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    padding: 0 80px;
+}
+
+
+.square {
+    position: absolute;
+    top: -60px;
+    left: auto;
+    right: -60px;
+    width: 640px;
+    height: 320px;
+    background: -webkit-gradient(linear, left top, right top, from(#5e18af), to(rgba(31,38,103,0.9)));
+    background: linear-gradient(to right, #5e18af, rgba(31,38,103,0.9));
+    -webkit-transform: none;
+    transform: none;
+    border-bottom-left-radius: 25px;
+}
+
+.rectangle {
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    width: 75px;
+    height: 110%;
+    background: -webkit-gradient(linear, left top, right top, from(#5e18af), to(rgba(31,38,103,0.9)));
+    background: linear-gradient(to right, #5e18af, rgba(31,38,103,0.9));
+    -webkit-transform: none;
+    transform: none;
+    
+}
+
+.circle{
+    position: absolute;
+    top : 50px;
+    left: 60px;
+    width: 400px;
+    height: 320px;
+    border-radius: 0px;
+    background: linear-gradient(to right, rgba(49,207,69,0.5), #50e3c2);
+    -webkit-transform: none;
+    transform: none;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.csharp{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+}
+
+.csharp img {
+    transform: scale(2.1);
+    opacity: 0.035;
+    font-size: 15px;
+    color: #503a76;
+}
+
+
+.title{
+    direction: rtl;
+    position: relative;
+    top: 310px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #1F2667;
+    font-family: Yekan;
+}
+
+.txt {
+    direction: rtl;
+    position: relative;
+    top: 380px;
+    font-size: 18.8px;
+    font-weight: 600;
+    line-height: 2.4;
+    letter-spacing: 0.06rem;
+    padding: 0 20px 0 48px;
+}
+
+.social-Media {
+    position: absolute;
+    bottom: 30px;
+    width: 796px;
+    color: #9da3ac;
+    padding: 0 0 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.watermark{
+    text-decoration: none;
+    letter-spacing: 0.13em;
+    font-size: 18px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.watermark a {
+    text-decoration: none;
+    color: #9da3ac;
+}
+
+.watermark svg{
+    position: relative;
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    /* margin: 4px 1px 0 0; */
+}
+
+.icon-globe {
+    margin: 0 4px 3px 0;
+}
+
+.icon-youtube {
+    margin: 0 4px 1px 0;
+}
+
+.icon-insta {
+    margin: 4px 3px 0 0;
+}
